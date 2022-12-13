@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main_container {
+    width:400px;
+    /*height: 620px;*/  
+    background: rgb(130,130,130);
+    background: linear-gradient(180deg, rgb(79 52 101) 0%, rgba(29,34,37,1) 80%);
+    border-radius: 60px;
+    -webkit-box-shadow: -12px -6px 6px -13px #c9c9c9; 
+    box-shadow: -9px -4px 6px -7px #c9cac9, 12px 10px 2px -7px #000000;;
+}
+
+.buton, .buton_operation{
+    width:75px;
+    height:80px;
+    border-radius: 30%;
+    background: #4d4d4d;
+    border:0px;
+    color:white;
+    font-size: 25px;
+    -webkit-box-shadow: -12px -6px 6px -13px #c9c9c9; 
+    box-shadow: -8px -2px 2px -7px #c9cac9, 9px 4px 2px -7px #000000;;
+  
+}
+
+.buttons {
+    display:grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.buton:active, .buton_operation:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.display{
+    /*background-color: #3e8e41;*/
+    width:360px;
+    /*height:100px;*/
+    /*margin-left:20px;*/
+    margin: 0 20px 0 20px;
+    color:white;
+    font-size:20px;
+}
+
+.first_part_of_operation{
+    height: 30px;
+    margin-bottom: 0px;
+    /*background-color: #48423b;*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.display_number{
+    /*background-color: #7a04a3;*/
+    font-size:38px;
+    margin: 0 0 0 0;
+    font-weight: none;
+    width: 360px;
+    height: 60px;
+    text-align: right;
+    display: table-cell;
+    vertical-align: MIDDLE;
+}
+
+.history_last_operation {
+    margin-bottom: 0px;
+    margin-top:0px;
+    display:none;
+    /*background-color: red;*/
+    height: 25px;
+    font-size:14.5px;
+    text-align: right;
+}
+
+.history_other_operation{
+    /*height: 25px;*/
+    margin-bottom: 0px;
+    margin-top:0px;
+    /*background-color: #00bcd4;*/
+    display: none;
+    font-size:14.5px;
+    text-align: right;
+}
+
+.history_other_operation > p {
+    margin: 0 0 0 0;
+    height: 25px;
+    /*background-color: #8bc34a;*/
+    font-size:14.5px;
+    text-align: right;
+}
+
+.big_number{
+    background-color: #7a04a3;
+    margin: 0 0 0 0;
+    font-weight: none;
+    width: 360px;
+    text-align: right;
+}
+
+
+
+
+#cancel {
+    background-color: #ffc80e;
+    box-shadow: none;
+}
+
+#operatiune {
+    background-color: #7a04a3;
+}
