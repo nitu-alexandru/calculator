@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <meta property ="og:url" content="http://calculator.alexandrunitu.eu">
+        <meta property ="og:title" content ="Simple calculator using JS with jQuery">
+        <meta name = "image" property = "og:image" content = "http://calculator.alexandrunitu.eu/img/thumblk.png" />
+        <meta property ="og:description" content='Posting another small project in JavaScript..'>
+        
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery-3.6.1.min.js"></script>
+    </head>
+
+    <body>
+        <div class="main_container">
+
+            <div class="display">
+                <p class = "first_part_of_operation"></p>
+                <p class = "display_number">0</p>
+                <p class = "history_last_operation"></p>
+                <p class = "history_other_operation"></p>
+            </div>
+            
+            <div class="buttons">
+                <div class = "buton_false"> </div>
+                <div class = "buton_false"> </div>
+                <button class="buton_operation" id="cancel" meta-data="cancel">Ce</button>
+                <button class="buton_operation" meta-data="!">!n</button>
+    
+                <button class="buton" meta-data="7">7</button>
+                <button class="buton" meta-data="8">8</button>
+                <button class="buton" meta-data="9">9</button>
+                <button class="buton_operation" id="operatiune" meta-data="X">X</button>
+
+                <button class="buton" meta-data="4">4</button>
+                <button class="buton" meta-data="5">5</button>
+                <button class="buton" meta-data="6">6</button>
+                <button class="buton_operation" id="operatiune" meta-data="/">/</button>
+
+                <button class="buton" meta-data="1">1</button>
+                <button class="buton" meta-data="2">2</button>
+                <button class="buton" meta-data="3">3</button>
+                <button class="buton_operation" id="operatiune" meta-data="-">-</button>
+
+                <button class="buton" meta-data="0">0</button>
+                <button class="buton" meta-data=".">.</button>
+                <button class="buton_operation" meta-data="rezultat">=</button>
+                <button class="buton_operation" id="operatiune" meta-data="+">+</button>
+            </div>
+
+
+        </div>
+        <script src="/js/javascript.js"></script>
+    </body>
+</html>
